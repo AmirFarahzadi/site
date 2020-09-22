@@ -1,0 +1,153 @@
+#title{
+  background-color: #ff4c68;
+    color: white;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p{
+  color:#8f8f8f;
+}
+
+#features{
+  background-color: #fff;
+  padding: 10% 15%;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+#cta{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+  font-style: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+  padding: 7% 0;
+}
+.container-fluid{
+  padding: 3% 15% 5%;
+}
+.titleHeading {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3.2rem;
+}
+.titleBtn1{
+  margin: 3rem 1rem 0;
+}
+.titleBtn2{
+  margin: 3rem 1rem 0;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.titleImage{
+  position : absolute;
+  right: -20%;
+}
+.featuresLogos{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.featuresLogos:hover{
+  color: #ff4c68;
+}
+.featuresHeader{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.featuresP{
+  color:#8f8f8f;
+}
+.featuresSection{
+}
+.feature-box{
+  text-align:center;
+  padding: 3%;
+}
+.footerIcon{
+  padding: 1%;
+}
+.testimonialsh2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.testimonialsImage{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.pricing-column{
+padding:3% 2%;
+}
+.pricingBtn{
+  margin-top: 56px;
+}
+
+@media (max-width :991px) {
+
+ #title{
+  text-align: center;
+ }
+
+  .titleImage{
+    padding-top: 10%;
+    width: 100%;
+    position: static;
+  }
+}
+@media (min-width :992px) and (max-width :1070px)  {
+  .titleImage{
+    padding-top: 30%;
+    width: 100%;
+    position: static;
+  }
+}
